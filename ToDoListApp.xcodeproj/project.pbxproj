@@ -14,6 +14,10 @@
 		86695E5326505E9A00E60144 /* ToDoListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86695E5126505E9A00E60144 /* ToDoListApp.xcdatamodeld */; };
 		86695E5526505E9B00E60144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86695E5426505E9B00E60144 /* Assets.xcassets */; };
 		86695E5826505E9B00E60144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86695E5626505E9B00E60144 /* LaunchScreen.storyboard */; };
+		86695E6026505F9E00E60144 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86695E5F26505F9E00E60144 /* ToDoTableViewController.swift */; };
+		86695E6226505FD600E60144 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86695E6126505FD600E60144 /* ToDo.swift */; };
+		86695E642650646500E60144 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86695E632650646500E60144 /* AddToDoViewController.swift */; };
+		86695E66265067FC00E60144 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86695E65265067FC00E60144 /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		86695E5426505E9B00E60144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86695E5726505E9B00E60144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86695E5926505E9B00E60144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86695E5F26505F9E00E60144 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		86695E6126505FD600E60144 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		86695E632650646500E60144 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		86695E65265067FC00E60144 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				86695E5626505E9B00E60144 /* LaunchScreen.storyboard */,
 				86695E5926505E9B00E60144 /* Info.plist */,
 				86695E5126505E9A00E60144 /* ToDoListApp.xcdatamodeld */,
+				86695E5F26505F9E00E60144 /* ToDoTableViewController.swift */,
+				86695E6126505FD600E60144 /* ToDo.swift */,
+				86695E632650646500E60144 /* AddToDoViewController.swift */,
+				86695E65265067FC00E60144 /* CompleteToDoViewController.swift */,
 			);
 			path = ToDoListApp;
 			sourceTree = "<group>";
@@ -142,8 +154,12 @@
 			files = (
 				86695E4D26505E9A00E60144 /* ViewController.swift in Sources */,
 				86695E4926505E9A00E60144 /* AppDelegate.swift in Sources */,
+				86695E66265067FC00E60144 /* CompleteToDoViewController.swift in Sources */,
 				86695E4B26505E9A00E60144 /* SceneDelegate.swift in Sources */,
+				86695E6226505FD600E60144 /* ToDo.swift in Sources */,
+				86695E642650646500E60144 /* AddToDoViewController.swift in Sources */,
 				86695E5326505E9A00E60144 /* ToDoListApp.xcdatamodeld in Sources */,
+				86695E6026505F9E00E60144 /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
